@@ -1,0 +1,37 @@
+<div class="container pb-5 mb-2">
+  <div class="comparison-table">
+    <table class="table table-bordered">
+      <thead class="bg-secondary">
+        <tr>
+        </tr>
+      </thead>
+      <tbody id="general" data-filter="target">
+        <tr class="bg-secondary">
+          <th class="text-uppercase">General</th>
+          <td *ngFor="let product of compareProducts"><span
+              class="text-dark font-weight-semibold">{{product.name}}</span></td>
+        </tr>
+        <tr>
+          <th>Quick charging</th>
+          <td *ngFor="let product of compareProducts">{{product.charging}}</td>
+        </tr>
+        <tr>
+          <th>Launch date</th>
+          <td *ngFor="let product of compareProducts">{{product.date}}</td>
+        </tr>
+        <tr>
+          <th>Sim size</th>
+          <td *ngFor="let product of compareProducts">{{product.sim}}</td>
+        </tr>
+        <tr>
+          <th>Network</th>
+          <td *ngFor="let product of compareProducts">{{product.network}}</td>
+        </tr>
+        <tr>
+          <th>Fingerprint sensor</th>
+          <td *ngFor="let product of compareProducts">{{product.fingerprint}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
