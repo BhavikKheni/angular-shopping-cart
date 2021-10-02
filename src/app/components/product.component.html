@@ -1,0 +1,69 @@
+<div>
+  <button class="btn btn-primar" [ngClass]="{bold:isTableView}" (click)="onTableView('table')">Table
+    view</button>|<button class="btn btn-primar" [ngClass]="{bold:!isTableView}" (click)="onTableView('grid')">Grid
+    view</button>
+</div>
+<div style="margin-left: 20px;">
+  <button (click)="onCompareProduct()" *ngIf="checkedNumber>0">Compare items</button>
+</div>
+<form [formGroup]="form">
+  <table class="table table-bordered" style="margin: 20px;" *ngIf="isTableView">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Photo</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody formArrayName="array">
+      <tr *ngFor="let control of getControlsForOption().controls; let i = index" [formGroupName]="i">
+        <td>
+          <div>
+            <input type="checkbox" formControlName="isChecked"
+              [attr.disabled]="!control.value.isChecked && checkedNumber >=3 ? '' : null"
+              (change)="onCheck($event,control)">
+          </div>
+        </td>
+        <td>{{control.value.name}}</td>
+        <td>{{control.value.price}}</td>
+        <td>
+          <img src="{{control.value.photo}}" width="50">
+        </td>
+        <td>
+          <div class="add-to-cart-btn">
+            <select class="form-control" style="width: 200px;" name="cars" id="cars" [(ngModel)]="dictionary2[i]"
+              [ngModelOptions]="{standalone: true}">
+              <option *ngFor="let num of numbers(control.value.availableProducts)" [value]="num">{{num}}</option>
+            </select>
+            <span *ngIf="control.value.availableProducts == 2">Only 2 Products available</span>
+            <span *ngIf="dictionary2[i] > control.value.limitItem">You choose more than limited quantity</span>
+            <button class="btn btn-primary" [disabled]="dictionary2[i] > control.value.limitItem"
+              (click)="addToCart(dictionary2[i],control.value.id)" style="margin-left: 5px;">Add to
+              cart</button>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+
+<div *ngIf="compareProducts.length">
+  <app-compare-product [compareProducts]="compareProducts"></app-compare-product>
+</div>
+
+<div class="container grid-item" *ngIf="!isTableView">
+  <div class="item" *ngFor="let product of products">
+    <div class="card" style="width: 18rem;">
+      <img src="{{product.photo}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{product.name}}</h5>
+        <p class="card-text">{{product.description}}
+        </p>
+        <span class="float-end">{{product.price}}</span>
+      </div>
+      <button class="btn btn-primary">Add to cart</button>
+    </div>
+  </div>
+</div>

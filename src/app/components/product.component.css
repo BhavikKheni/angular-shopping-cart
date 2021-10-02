@@ -1,0 +1,16 @@
+.add-to-cart-btn{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.grid-item{
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 20px;
+}
+.item{
+  margin: 0px 10px 0px 0px;
+}
+.bold{
+  font-weight: bold;
+}
