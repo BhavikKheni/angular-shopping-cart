@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "availableProducts": 10,
+    "limitItem": 5
+  },
+  {
+    "id": 2,
+    "availableProducts": 20,
+    "limitItem": 10
+  },
+  {
+    "id": 3,
+    "availableProducts": 30,
+    "limitItem": 15
+  },
+  {
+    "id": 4,
+    "availableProducts": 16,
+    "limitItem": 7
+  },
+  {
+    "id": 5,
+    "availableProducts": 50,
+    "limitItem": 40
+  },
+  {
+    "id": 6,
+    "availableProducts": 45,
+    "limitItem": 14
+  },
+  {
+    "id": 7,
+    "availableProducts": 10,
+    "limitItem": 9
+  },
+  {
+    "id": 8,
+    "availableProducts": 70,
+    "limitItem": 50
+  },
+  {
+    "id": 9,
+    "availableProducts": 30,
+    "limitItem": 15
+  },
+  {
+    "id": 10,
+    "availableProducts": 40,
+    "limitItem": 15
+  }
+]

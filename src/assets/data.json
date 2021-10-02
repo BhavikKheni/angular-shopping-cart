@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "name": "Licensed Frozen Hat",
+    "description": "Incidunt et magni est ut. Sint libero mollitia",
+    "price": "170.00",
+    "charging": "5",
+    "date": "Octomber 1, 2015 ",
+    "sim": "SIM1: Nano",
+    "fingerprint": "None (Face ID)",
+    "network": "4G: Available (supports Indian bands) 3G: Available, 2G: Available",
+    "photo": "https://source.unsplash.com/1600x900/?product"
+  },
+  {
+    "id": 2,
+    "name": "Rustic Concrete",
+    "description": "Sint libero mollitia Sint libero mollitia.",
+    "price": "302.00",
+    "charging": "10",
+    "sim": "sim1: Nano",
+    "fingerprint": "None (Face ID)",
+    "date": "November 1, 2018 ",
+    "network": "4G: Available (supports Indian bands) 3G: Available, 2G: Available",
+    "photo": "https://source.unsplash.com/1600x900/?product"
+  },
+  {
+    "id": 3,
+    "name": "Fantastic Metal Computer",
+    "description": "In consequuntur cupiditate et unde minus.",
+    "price": "279.00",
+    "charging": "15",
+    "date": "June 1, 2014 ",
+    "fingerprint": "Back cover",
+    "sim": "SIM1: Nano SIM2: Nano (Hybrid)",
+    "network": "4G: Available (supports Indian bands) 3G: Available, 2G: Available",
+    "photo": "https://source.unsplash.com/1600x900/?product"
+  },
+  {
+    "id": 4,
+    "name": "Licensed Frozen Hat",
+    "description": "Incidunt et magni est ut. Sint libero mollitia",
+    "price": "580.00",
+    "charging": "12",
+    "date": "May 1, 2016 ",
+    "fingerprint": "None (Face ID)",
+    "sim": "SIM1: Nano SIM2: Nano (Hybrid)",
+    "photo": "https://source.unsplash.com/1600x900/?product"
+  },
+  {
+    "id": 5,
+    "name": "Rustic Concrete",
+    "description": "Sint libero mollitia Sint libero mollitia.",
+    "price": "300.00",
+    "charging": "20",
+    "date": "March 1, 2017 ",
+    "fingerprint": "Back cover",
+    "sim": "SIM1: Nano SIM2: Nano (Hybrid)",
+    "network": "4G: Available (supports Indian bands) 3G: Available, 2G: Available",
+    "photo": "https://source.unsplash.com/1600x900/?product"
+  },
+  {
+    "id": 6,
+    "name": "Fantastic Metal Computer",
+    "description": "In consequuntur cupiditate et unde minus.",
+    "price": "479.00",
+    "charging": "26",
+    "date": "August 1, 2021 ",
+    "fingerprint": "In-screen",
+    "sim": "SIM1: Nano SIM2: Nano (Hybrid)",
+    "network": "4G: Available (supports Indian bands) 3G: Available, 2G: Available",
+    "photo": "https://source.unsplash.com/1600x900/?product"
+  },
+  {
+    "id": 7,
+    "name": "Iwatch",
+    "description": "Incidunt et magni est ut. Sint libero mollitia",
+    "price": "1270.00",
+    "charging": "11",
+    "date": "November 1, 2020 ",
+    "fingerprint": "Back cover",
+    "sim": "SIM1: Nano SIM2: Nano (Hybrid)",
+    "network": "4G: Available (supports Indian bands) 3G: Available, 2G: Available",
+    "photo": "https://source.unsplash.com/1600x900/?product"
+  },
+  {
+    "id": 8,
+    "name": "Desktop",
+    "description": "Sint libero mollitia Sint libero mollitia.",
+    "price": "3002.00",
+    "date": "February 1, 2019 ",
+    "sim": "SIM1: Nano",
+    "fingerprint": "Back cover",
+    "network": "4G: Available (supports Indian bands) 3G: Available, 2G: Available",
+    "photo": "https://source.unsplash.com/1600x900/?product"
+  },
+  {
+    "id": 9,
+    "name": "Laptop",
+    "description": "In consequuntur cupiditate et unde minus.",
+    "price": "279.00",
+    "charging": "15",
+    "date": "December 1, 2018 ",
+    "sim": "SIM1: Nano",
+    "fingerprint": "In-screen",
+    "network": "4G: Available (supports Indian bands) 3G: Available, 2G: Available",
+    "photo": "https://source.unsplash.com/1600x900/?product"
+  },
+  {
+    "id": 10,
+    "name": "Computer",
+    "description": "In consequuntur cupiditate et unde minus.",
+    "price": "1279.00",
+    "charging": "20",
+    "date": "November 1, 2018 ",
+    "fingerprint": "In-screen",
+    "sim": "SIM1: Nano SIM2: Nano (Hybrid)",
+    "network": "4G: Available (supports Indian bands) 3G: Available, 2G: Available",
+    "photo": "https://source.unsplash.com/1600x900/?product"
+  }
+]
