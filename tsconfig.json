@@ -12,14 +12,25 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "resolveJsonModule": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "esModuleInterop": true,
     "target": "es2017",
     "module": "es2020",
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "types": [
+      "jquery",
+      "jqueryui",
+      "./node_modules/node"
+    ],
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
